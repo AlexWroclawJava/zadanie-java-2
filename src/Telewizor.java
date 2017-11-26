@@ -6,7 +6,16 @@ public class Telewizor {
     String rozmiar;
     double cena;
 
-    Telewizor() {
+    Telewizor(String n, String m, String t, String r, double c) {
+
+        nazwa = n;
+        marka = m;
+        typ  = t;
+        rozmiar = r;
+        cena = c;
+    }
+
+     Telewizor() {
     }
 
 }
